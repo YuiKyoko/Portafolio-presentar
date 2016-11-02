@@ -1,0 +1,150 @@
+
+body{
+	font-size: 16px;
+}
+.progress {
+	margin-left: 200px;
+	width: 500px;
+	display: block;
+}
+h1{
+	text-align: center;
+}
+.letra{
+	width: 100px;
+	margin-left:120px;
+}
+.barra{
+	padding: 15px;
+}
+.line{
+	width: 4em;
+	border: 2px solid #5c196b;
+	margin: 1em auto;
+}
+
+.line-white{
+	width: 4em;
+	border: 2px solid #FFFFFF;
+	margin: 1em auto;
+}
+.sobreMi{
+	background-color: #5c196b;
+	height: 550px;
+	padding: 70px;
+}
+.text-portafolio{
+	color: #F05F40;
+}
+.text-white{
+	color: #FFFFFF;
+}
+
+.bg-black{
+	background-color: #000000;
+}
+/*--------PRESENTACIÓN----------*/
+.presentacion{
+	margin-bottom: 0px;
+}
+
+#sobremi{
+	padding: 0% 0%;
+}
+.name{
+	font-size: 3em;
+}
+/*--------SERVICIOS----------*/
+.servicios{
+	padding: 5% 0%;
+}
+.icon{
+	font-size: 3em;
+}
+.tipos-servicios{
+	padding: 10% 0%;
+} 
+/*--------HABILIDADES----------*/
+.clase{
+	height: 550px;
+	background-color: #9DC8C8;
+}
+.canvas{
+	padding: 15px;
+	text-align: center;
+	width:250px;
+	display: inline-block;
+	font-family: 'Montañas de Navidad', cursiva;
+}	
+/*--------NUEVOS PROYECTOS----------*/
+.img {
+	width: 100%;
+	display: inline-block;
+	padding: 4%;
+}
+.row{
+	padding: 2%;
+	height: 300px;
+}
+.newcategory{ 
+	opacity:0;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: auto;
+} 
+
+.overlay:hover .newcategory{ 
+	opacity:0.9; 
+	color:#FFFFFF; 
+	font-weight:700;
+	background-color: #5c196b;
+	text-align: center;
+	padding-top: 20%;
+	min-height: 100%; 
+}
+.overlay:hover .newcategory h4{ 
+	color: rgba(255, 255, 255, 0.7);
+}
+.tamano{
+	padding: 0px;
+}
+
+
+/*--------FOOTER----------*/
+footer {
+	padding: 5% 0%;
+	height: 550px;
+}
+.contact{
+	padding: 0% 20%
+	height:550px;
+}
+.contac-ico {
+	font-size: 2em;
+}
+.m-bottom{
+	margin-bottom: 1em;
+}
+
+@media (max-width: 1024px){
+	body{
+	font-size: 16px;
+	}
+}
+@media (max-width: 982px){
+	body{
+	font-size: 14px;
+	}
+}
+@media (max-width: 768px){
+	body{
+	font-size: 14px;
+	}
+}
+
+@media (max-width: 640px){
+	body{
+	font-size: 12px;
+	}
+}
