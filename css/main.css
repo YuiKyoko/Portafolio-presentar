@@ -9,6 +9,8 @@ body{
 }
 h1{
 	text-align: center;
+	margin-top: 0px;
+	color: 
 }
 .letra{
 	width: 100px;
@@ -29,9 +31,8 @@ h1{
 	margin: 1em auto;
 }
 .sobreMi{
-	background-color: #5c196b;
+	background-color: #490a3d;
 	height: 550px;
-	padding: 70px;
 }
 .text-portafolio{
 	color: #F05F40;
@@ -67,7 +68,7 @@ h1{
 /*--------HABILIDADES----------*/
 .clase{
 	height: 550px;
-	background-color: #9DC8C8;
+	background-image: url(http://imgview.info/download/20150517/purple-gradient-wallpaper-2560x1600.jpg);
 }
 .canvas{
 	padding: 15px;
@@ -77,6 +78,10 @@ h1{
 	font-family: 'Montañas de Navidad', cursiva;
 }	
 /*--------NUEVOS PROYECTOS----------*/
+.proyecto{
+	background-image: url(http://i.kinja-img.com/gawker-media/image/upload/t_original/krizzghfqegk0fv0g3ey.gif);
+
+}
 .img {
 	width: 100%;
 	display: inline-block;
@@ -126,6 +131,12 @@ footer {
 .m-bottom{
 	margin-bottom: 1em;
 }
+#contacto{
+	background-image: url(http://www.mactualidad.com/wp-content/uploads/2014/07/smooth-purple.jpg);
+	height: 100vh;
+	width: 100vw;
+}
+
 
 @media (max-width: 1024px){
 	body{

@@ -1,4 +1,4 @@
-
+/*------EFECTO PORTADA-------*/
 ;( function() {
 
 	'use strict';
